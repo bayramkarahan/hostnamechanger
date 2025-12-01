@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=hostnamechanger Application
+Name[tr]=Bilgisayar Adını Değiştir
+Type=Application
+Comment=Simple Qt based hostname changer Application
+Comment[tr]=Basit Qt tabanlı Bilgisayar Adını Değeiştirme Uygulaması
+Terminal=false
+Exec=sh -c "pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY /usr/bin/hostnamechanger"
+Icon=/usr/share/icons/hostname.svg
+Categories=Qt;Utility;
+Keywords=hostname;host;
+GenericName=hostnamechanger
+Name[tr_TR]=Bilgisayar Adını Değiştir

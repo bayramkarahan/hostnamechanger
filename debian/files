@@ -1,0 +1,3 @@
+hostnamechanger-dbgsym_1.0.0_amd64.deb debug optional automatic=yes
+hostnamechanger_1.0.0_amd64.buildinfo utils optional
+hostnamechanger_1.0.0_amd64.deb utils optional

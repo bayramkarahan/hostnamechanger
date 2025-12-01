@@ -1,0 +1,17 @@
+Source: hostnamechanger
+Section: utils
+Priority: optional
+Maintainer: Bayram KARAHAN <bayramk@gmail.com>
+Build-Depends: debhelper (>= 9), 
+    qtdeclarative5-dev
+Standards-Version: 3.9.8
+Homepage: http://pardus.org.tr
+
+Package: hostnamechanger
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends},
+       	libqt5core5a,
+    	libqt5gui5,
+    	libqt5widgets5,
+    	libnotify-bin
+Description: hostnamechanger Uygulaması
